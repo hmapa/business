@@ -1,0 +1,237 @@
+/* Responsive */
+
+@media (max-width: 1199px){
+    .container{
+        width: 90%;
+    }
+    .section_text {
+        line-height: 18px;
+    }
+    .nav_a{
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+    .header__container {
+        justify-content: center;
+    }
+    .nav_ul{
+        flex-wrap: wrap;
+    }
+    .logo_a{
+        display: none;
+    }
+    .input{
+        margin-right: 12px;
+        width: calc(25% - 9px);
+        padding: 15px 5px 13px 35px;
+        border: none;
+    }
+    .form__btn{
+        padding: 14px 15px;
+    }
+    .services {
+        padding-top: 165px;
+        padding-bottom: 40px;
+    } 
+    .services__item {
+        width: calc( 50% - 10px );
+        padding-left: 65px;
+        margin-bottom: 30px;
+    }  
+    .services__item:nth-child(2n-1) {
+        margin-right: 20px;
+    }
+    .AU{
+        padding-top: 108px;
+        padding-bottom: 124px;
+    }
+    .AU__wrapp {
+        padding: 0 22px;
+    }
+    .prices{
+        padding-top: 55px;
+        padding-bottom: 84px;
+        background-color: #e7edf3;
+    }
+    .primary_card {
+        padding-top: 70px;
+        padding-bottom: 63px;
+    }
+    .HIW{
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+    .clients{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .rewiews__item, .rewiews__item:nth-child(2), .rewiews__item:nth-child(3), .rewiews__item:nth-child(4) {
+        width: calc(50% - 18px);
+        padding: 165px 18px 20px 24px;
+        margin-top: 20px;
+        background-position: center 26px;
+    }
+    .close_brackets{
+        left: 100%;
+    }
+    .newsletter{
+        padding-top: 52px;
+    }
+    .newsletter-name{
+        border: 1px solid #cbcbcb;
+        width: calc(40% - 10px);
+        margin-right: 15px;
+    }
+    .newsletter-email{
+        border: 1px solid #cbcbcb;
+        width: calc(40% - 10px);
+        margin-right: 15px;
+    }
+    .newsletter .logo_a{
+        display: unset;
+    }
+    .newsletter_container {
+        padding-bottom: 100px;
+    }
+    .footer__container {
+        width: 90%;
+    }
+    .social_list {
+        margin-top: 30px;
+    }
+    .social_items {
+        margin-right: 36px;
+    }
+    .social_icons{
+        height: 20px;
+    }
+}
+
+@media (max-width: 767px){
+    .header__container {
+        flex-direction: column;
+    }
+    .logo_a {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .title{
+        line-height: 30px;
+    }
+    .nav_ul {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .nav_ul li{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .nav_ul li:last-child{
+        text-align: center;
+        width: 100%;
+    }
+    .main_nav{
+        align-self: end;
+    }
+    .main_title{
+        font-size: 26px;
+    }
+    .form_container {
+        flex-wrap: wrap;
+    }
+    .input{
+        margin: 0 0 15px 0;
+        width: 100%;
+        padding: 8px 5px 10px 35px;
+        border: none;
+    }
+    .slider_wrapper {
+        background: url(../img/slider-bg.png) no-repeat center center / 291px;
+    }
+    /* .slider_wrapper{
+        min-height: 154px;
+        padding-top: 8px;
+        background: url(../img/slider-bg.png) no-repeat center top / 100%;
+    } */
+    .swiper-container {
+        width: 200px;
+        position: relative;
+        top: 85px;
+    }
+    .slidder__img{
+        margin-bottom: 92px;
+        width: 100%;
+        height: 124px;
+        object-fit: cover;
+    }
+    .services__item{
+        width: 100%;
+        text-align: center;
+        padding: 65px 0 0 0;
+    }
+    .services__item:nth-child(2n-1) {
+        margin-right: 0;
+    }
+    .services__item, .services__item:nth-child(6), .services__item:nth-child(1), .services__item:nth-child(2), .services__item:nth-child(3), .services__item:nth-child(4), .services__item:nth-child(5){
+        background-position: center top;
+    }
+    .AU__wrapp {
+        padding: 14px;
+    }
+    .AU__title {
+        font-size: 22px;
+    }
+    .AU__descr{
+        max-width: 100%;
+        padding: 0;
+        line-height: 15px;
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+    .AU {
+        padding-top: 18px;
+        padding-bottom: 24px;
+    }
+    .cards_row {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .HIW__arrows{
+        display: none;
+    }
+    .HIW__list {
+        flex-direction: column;
+        margin-top: 32px;
+        margin-bottom: 36px;
+    }
+    .HIW__items {
+        width: 100%;
+    }
+    .HIW__icons {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .rewiews__item, .rewiews__item:nth-child(2), .rewiews__item:nth-child(3), .rewiews__item:nth-child(4) {
+        width: 100%;
+    }
+    .rewiews__item:nth-child(2n-1) {
+        margin-right: 0;
+    }
+    .clients {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .newsletter-name, .newsletter-email{
+        border: 1px solid #cbcbcb;
+    }
+}
